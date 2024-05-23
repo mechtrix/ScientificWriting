@@ -6,6 +6,8 @@ It shall give you an idea on how to write reports on Case Studies on the LFC Cha
 There are many way on how to do Case Study reports as well as Thesis on a technical basis. 
 One rule of thumb does apply: The content matters more than the means of how you arrive at the final report.
 
+By adhering to those guidelines you make it easier for everyone to read, and finally grade, your papers.
+
 # Structure
 
 In general, you must comply to the following structure:
@@ -28,4 +30,10 @@ Usually, they do include references.
 
 ## Introduction
 
+- describes the state of the art
+- includes a literature research 
+- identifies the research question based on the literature research
+- the last paragraph/the last sentence *always* contains the actual research question at which you arrive
 
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
