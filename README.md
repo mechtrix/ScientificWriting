@@ -36,4 +36,4 @@ Usually, they do include references.
 - the last paragraph/the last sentence *always* contains the actual research question at which you arrive
 
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> Write the introduction *after* you finished (except for the literature review). This way it is easier to formulate the research question.
