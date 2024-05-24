@@ -234,6 +234,7 @@ The general guidelines above are stated in such a way, so that they are applicab
 - rule of thumb: Quick results, but good formatting also takes time in this software
 - writing mathematical equations used to be a pain (especially equation numbering)
 - start the formatting *before* writing the thesis
+- you have to adhere to the standards mentioned above, even if there is no template available out-of-the-box.
 
 ## (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (M)ean - WYSIWYM
 
@@ -262,5 +263,33 @@ The general guidelines above are stated in such a way, so that they are applicab
 - does not **NEED** an editor, but works beautiful with [RStudio](https://posit.co/download/rstudio-desktop/)
 - is cross platform
 - can be extended [really easily](https://github.com/quarto-journals/)
+- you should be able to download the `quarto_example` folder and use the template out-of-the-box.
 
+# Case Study specific rules
+
+## Abstract
+
+- You **MUST** add an abstract to final paper/report.
+- The abstract has no numbering and appears *before* the actual manuscript.
+- The abstract must *mirror* all the chapters as introduced in the `Structure` section in proportion and content.
+
+- Length of the abstract: 250-300 words
+
+## Article
+
+- linespacing: 1.5
+- font: serif
+- fontsize: 12-14pt
+- number of pages: see length of the article
+- single column
+
+- Length of the article: 3500 - 5000 words (excluding: Appendix, Bibliography, Abstract, Acknowledgements, including: Headings)
+
+
+## Submission
+
+- Submission must be completed on the communicated date (see [i-learn](https://ilearn.th-deg.de/) for the specific case study).
+- Submission must be **printed on A4 paper** and must be nondetachably connected to each other on the day of submission.
+- Submission must **signed by all authors** including the printed name, the signature and the date
+- Author contribution **MUST** be included (see `Acknowledgments` section)
 
