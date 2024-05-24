@@ -81,7 +81,7 @@ Every engineering/scientific writing project is standing on the shoulders of gia
 Therefore you will need to first read literature and also add literature to you final paper/final report.
 There are numerous ways of how to do this, which also depend on your choice of writing style (WYSIWYG vs. WYSIWYM).
 
-The lab uses it's own citation style which is fully specified in `csl/SensorLab.csl`.
+The lab uses it's own citation style which is fully specified in [`csl/SensorLab.csl`](csl/SensorLab.csl).
 This folder contains a [`*.csl`-file ](csl/SensorLab.csl) which can be uses by many document processing systems, therefore ensuring a consistent citation style throughout the works.
 The style is in essence the [Elsevier - Harvard (with titles)](https://editor.citationstyles.org/styleInfo/?styleId=http%3A%2F%2Fwww.zotero.org%2Fstyles%2Felsevier-harvard) style if you need to search differently for it and can not use it out-of-the-box.
 
@@ -106,5 +106,62 @@ Updating literature sections quickly becomes cumbersome and eats up a lot of you
 5) citavi: [citavi](https://www.citavi.com/de) is also a desktop literature management software. As with `zotero` one of its main features is the seamless integration in WYSIWYG software.  I know many students who have worked with `citavi`, all of them were satisfied. You can get a license from [DIT bib](https://www.th-deg.de/bib), see the [Homepage](https://www.th-deg.de/bib) for more info on this.
 
 6) Mendeley: [Mendeley](https://www.mendeley.com/) is again a desktop literature management software. It also integrates with popular WYSIWYG software, there are many citation styles online to look for. It used to have a great pdf importer a few years back.
+
+## Appendix
+
+Everything that belongs to your study/paper/project that does not "fit" into the upper sections goes in the appendix.
+Stuff in the appendix should also be *referenced* throughout the paper/report.
+
+Examples are:
+- Code
+- repeated figures (reporting the results in a similar)
+- additional table
+
+> [!Note]
+> The appendix doe **NOT** count for the word count or the length of your paper.
+
+## Acknowledgments
+
+Acknowledge people here.
+You can put the author contributions for Case Studies here.
+
+# Figures
+
+It is very likely that you will have images in your paper/report. 
+Please follow the following guidelines/tips.
+
+## raster images
+
+- at least `300dpi` in resolution
+- preferred file format: `*.png`, also possible: `*.tiff`, avoid: `*.jpg`, `*.bmp`
+- need to have a caption
+- need to have a number
+- only images that are referenced in the text (as in: needed) shall be used
+- if the images are not your own work, cite the source
+- ask for permission, check the [license](https://commons.wikimedia.org/wiki/Commons:Licensing/en) 
+- no stock images
+
+## vector graphics
+
+- can be very useful for workflows, diagrams
+- can be scaled indefinitely, very good for printed output
+- use `*.svg` files (also web standard)
+- use software to create: [inkscape](https://inkscape.org/de/) - opens source and free, [Adobe Illustrator](https://www.adobe.com/de/products/illustrator.html) - closed source not free
+
+## plots
+
+- always label all axis
+- add a title
+- add a legend (if necessary), avoid legends (where possible)
+- fontsize at least the fontsize of the text
+- resolution at least `300dpi`, or use as vector graphic
+- use colorblind friendly color palettes (e.g. `viridis`)
+- gridlines only if information is added 
+- in general: consider the [data-ink ratio](https://www.matthewdeverna.com/docs/notes/Tufte_dataInk.html) proposed by Edward Tufte[^2].
+
+> [!CAUTION]
+> Figure that are not referenced in the text are not necessary and **MUST** be removed. This influences grading!
+
+[^2]: Edward Tufte: https://de.wikipedia.org/wiki/Edward_Tufte
 
 
