@@ -10,7 +10,7 @@ By adhering to those guidelines you make it easier for everyone to read, and fin
 
 # Structure
 
-In general, you must comply to the following structure:
+In general, you **MUST** comply to the following structure:
 
 1) Introduction
 2) Materials and Methods
@@ -82,7 +82,7 @@ Therefore you will need to first read literature and also add literature to you 
 There are numerous ways of how to do this, which also depend on your choice of writing style (WYSIWYG vs. WYSIWYM).
 
 The lab uses it's own citation style which is fully specified in `csl/SensorLab.csl`.
-This folder contains a `*.csl`-file which can be uses by many document processing systems, therefore ensuring a consistent citation style throughout the works.
+This folder contains a [`*.csl`-file ](csl/SensorLab.csl) which can be uses by many document processing systems, therefore ensuring a consistent citation style throughout the works.
 The style is in essence the [Elsevier - Harvard (with titles)](https://editor.citationstyles.org/styleInfo/?styleId=http%3A%2F%2Fwww.zotero.org%2Fstyles%2Felsevier-harvard) style if you need to search differently for it and can not use it out-of-the-box.
 
 [^1]: Newton, Isaac. "Letter from Sir Isaac Newton to Robert Hooke". Historical Society of Pennsylvania.
@@ -93,7 +93,7 @@ There are many ways on how to manage literature.
 It is recommended to use such a method together with an automated bibliography creation.
 Creating a literature section once is not a problem, but with changes in your document also the literature section may change, as may the order of citations.
 There are solutions on DIT on how to work with literature, follow this [link](https://www.th-deg.de/bib) to get involved with the DIT library.
-Updating literature sections quickly becomes cumbersome and eats up a lot of your precious time - use it.
+Updating literature sections quickly becomes cumbersome and eats up a lot of your precious time - use software support.
 
 1) CiteDrive: [CiteDrive](https://www.citedrive.com/en/) is a browser based application for the management of bibliographies. You have to sign up for it. You can add you identifiers (`doi`, `ISBN`, ...) and the reference should be imported correctly. You can also import a `bibtex` based citation, which will then be processed. It allows for more users to work on one bibliography. It connects to your document via an `API` key - if your are using `LaTeX` or `quarto` to write. You can get the citation key (which are automatically generated from the browser). I am using it - after many years of fiddling with bibliographies it is a warmly welcomed method to organize literature. 
 
