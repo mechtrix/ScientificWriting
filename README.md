@@ -24,6 +24,7 @@ The chapters can be appended by two (not so) optional chapters:
 
 5) References
 6) Appendix
+7) Acknowldegements
 
 Not all engineering/technical/scientific wirting scenarios include an appendix. 
 Usually, they do include references.
@@ -64,9 +65,46 @@ Usually, they do include references.
 
 - is the heart of your actual paper
 - is where you can get creative
-- consists of the following sub-strucutre
+- consists of the following sub-structure
   1) short repetition of the research question in the introduction
   2) discussion of the results, connecting the dots
-  3) strengths and limitations: there are **ALWAYS** strengths and limitations in **EVERY** study. If none are reported and discussed, it actually decreases the quality of your paper. Discuss how the limitations impact or may imopact the results and report either counter actions you took or report some that are possible.
+  3) strengths and limitations: there are **ALWAYS** strengths and limitations in **EVERY** study. If none are reported and discussed, it actually decreases the quality of your paper. Discuss how the limitations impact or may impact the results and report either counter actions you took or report some that are possible.
+  4) future research: good research is always the basis for new studies, discuss new ideas/method/approaches, but keep this paragraph concise. Do add literature if applicable.
+  5) conclude by summarizing the whole discussion in a concise paragraph and end with how the research question has been answered
+  
+>[!Tip]
+> The discussion is *your* section. This is where you can get creative and show how the results fit together in the bigger picture. 
   
 ## References and Bibliography
+
+Every engineering/scientific writing project is standing on the shoulders of giants[^1].
+Therefore you will need to first read literature and also add literature to you final paper/final report.
+There are numerous ways of how to do this, which also depend on your choice of writing style (WYSIWYG vs. WYSIWYM).
+
+The lab uses it's own citation style which is fully specified in `csl/SensorLab.csl`.
+This folder contains a `*.csl`-file which can be uses by many document processing systems, therefore ensuring a consistent citation style throughout the works.
+The style is in essence the [Elsevier - Harvard (with titles)](https://editor.citationstyles.org/styleInfo/?styleId=http%3A%2F%2Fwww.zotero.org%2Fstyles%2Felsevier-harvard) style if you need to search differently for it and can not use it out-of-the-box.
+
+[^1]: Newton, Isaac. "Letter from Sir Isaac Newton to Robert Hooke". Historical Society of Pennsylvania.
+
+### Literature management
+
+There are many ways on how to manage literature.
+It is recommended to use such a method together with an automated bibliography creation.
+Creating a literature section once is not a problem, but with changes in your document also the literature section may change, as may the order of citations.
+There are solutions on DIT on how to work with literature, follow this [link](https://www.th-deg.de/bib) to get involved with the DIT library.
+Updating literature sections quickly becomes cumbersome and eats up a lot of your precious time - use it.
+
+1) CiteDrive: [CiteDrive](https://www.citedrive.com/en/) is a browser based application for the management of bibliographies. You have to sign up for it. You can add you identifiers (`doi`, `ISBN`, ...) and the reference should be imported correctly. You can also import a `bibtex` based citation, which will then be processed. It allows for more users to work on one bibliography. It connects to your document via an `API` key - if your are using `LaTeX` or `quarto` to write. You can get the citation key (which are automatically generated from the browser). I am using it - after many years of fiddling with bibliographies it is a warmly welcomed method to organize literature. 
+
+2) JabRef: [JabRef](https://www.jabref.org/) is a Desktop application to manage literature. It is very powerful, but in some cases a little over the top (for my taste). It really is a good piece of software and build upon `bibtex` files (`*.bib`). You can also connect to a `PostgreSQL` database, which should make collaborative work easier. Open source - so if you want you can fiddle with the source code
+
+3) bibtex: [bibtex](https://www.bibtex.org/) is the "language" on which both the technologies mentioned (CiteDrive and JabRef) are build upon. But you do not need a management software, you can organize your literature in a simple `*.bib` file in a text editor. This is a perfect valid method and especially useful if things go wrong.
+
+4) zotero: [zotero](https://www.zotero.org/) is another management software for references. Its main advantage is probably the (supposedly) seamless integration with WYSIWYG software (like MS Word or its cousins). I never worked with it, but many colleagues do and it seems to be a good solution. It is also open source and free. 
+
+5) citavi: [citavi](https://www.citavi.com/de) is also a desktop literature management software. As with `zotero` one of its main features is the seamless integration in WYSIWYG software.  I know many students who have worked with `citavi`, all of them were satisfied. You can get a license from [DIT bib](https://www.th-deg.de/bib), see the [Homepage](https://www.th-deg.de/bib) for more info on this.
+
+6) Mendeley: [Mendeley](https://www.mendeley.com/) is again a desktop literature management software. It also integrates with popular WYSIWYG software, there are many citation styles online to look for. It used to have a great pdf importer a few years back.
+
+
