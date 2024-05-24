@@ -143,6 +143,9 @@ In general figure
 - must be cited if not your own work, check the [license](https://commons.wikimedia.org/wiki/Commons:Licensing/en) 
 - must be referenced in the text; if not referenced it will be deemed unnecessary and treated as such
 
+> [!CAUTION]
+> Figure that are not referenced in the text are not necessary and **MUST** be removed. This influences grading!
+
 ## raster images
 
 - at least `300dpi` in resolution
@@ -170,9 +173,6 @@ In general figure
 - use colorblind friendly color palettes (e.g. `viridis`)
 - gridlines only if information is added 
 - in general: consider the [data-ink ratio](https://www.matthewdeverna.com/docs/notes/Tufte_dataInk.html) proposed by Edward Tufte[^4].
-
-> [!CAUTION]
-> Figure that are not referenced in the text are not necessary and **MUST** be removed. This influences grading!
 
 [^4]: Edward Tufte: https://de.wikipedia.org/wiki/Edward_Tufte
 
@@ -203,4 +203,64 @@ python:
 
 other languages:
 - your are on your own
+
+# pseudocode
+
+If algorithms are included in your project that you want to describe thoroughly you can do this using `pseudocode`.
+This is an effective and language agnostic way to describe the your algorithms.
+For WYSIWYM systems there are packages and methods on how to include pseudocode.
+There are many tips online on how to write [pseudecode](https://gist.github.com/camilstaps/59c4574ab8131fb83612a446606cbcba), check it out.
+
+- Use mathematical notation when applicable.
+- Don't rely on programming language conventions.
+- You shouldn't have to explain your pseudocode.
+- Pseudocode works better when strongly typed.
+- Indent code blocks
+- Use 'syntax' highlighting
+
+> [!IMPORTANT]
+> There should be no "real" code in the body of your text. The body of your text shall include pseudocode, the actual code goes in the appendix.
+
+# Technial means of writing
+
+There are two main ways of writing: (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (G)et vs. (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (M)ean.
+The choice of writing does **NOT** influence your grade, its the content of your paper that matters.
+The general guidelines above are stated in such a way, so that they are applicable for both writing styles.
+
+## (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (G)et - WYSISWYG
+
+- arguably the most popular software out there
+- software examples are: [MS Word](https://th-deg.de/it-services), Libre Office, Open Office
+- rule of thumb: Quick results, but good formatting also takes time in this software
+- writing mathematical equations used to be a pain (especially equation numbering)
+- start the formatting *before* writing the thesis
+
+## (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (M)ean - WYSIWYM
+
+- arguably the most popular software out there
+- software example are: LaTex, quarto, markdown
+- content and formatting are seperated, which means formatting can (in theory) easily exchanged
+- typesetting in LaTex is probably the most advanced on the planet
+- steep learning curve
+- once you know how to use it, and get to know the advantages, you may enjoy it
+- you **DO NOT** have to use it
+
+### LaTex
+
+- Linux Distribution style
+- Most popular distribution in WIN is [MiKTex](https://miktex.org/)
+- Editors are available: [TexnicCenter](https://www.texniccenter.org/), [TexMaker](https://www.xm1math.net/texmaker/), [Notepadd++](https://notepad-plus-plus.org/)
+- Popular Online Editor: [Overleaf](https://de.overleaf.com/)
+- Vast number of packages available to do practically everything [CTAN](https://ctan.org/).
+- can quickly become cumbersome, output is [beautiful though](https://i.sstatic.net/kv4NS.jpg) 
+
+### quarto
+
+- new kid on the block
+- uses `markdown` formatting and is quite versatile because if this
+- can be downloaded [here](https://quarto.org/) 
+- does not **NEED** an editor, but works beautiful with [RStudio](https://posit.co/download/rstudio-desktop/)
+- is cross platform
+- can be extended [really easily](https://github.com/quarto-journals/)
+
 
