@@ -24,10 +24,16 @@ The chapters can be appended by two (not so) optional chapters:
 
 5) References
 6) Appendix
-7) Acknowldegements
+7) Acknowledgements
 
-Not all engineering/technical/scientific wirting scenarios include an appendix. 
+Not all engineering/technical/scientific writing scenarios include an appendix. 
 Usually, they do include references.
+
+> [!IMPORTANT]
+> In general: Always show if something (algorithm, code, figures) are **NOT** your own work. Below are guidelines on how to do that in various scenarios. Everything else is **PLAGIARISM** and will be treated as such.
+
+> [!TIP]
+> Aim for a high information density! No elaborate paragraphs that "look good". Think of every sentence: if new information is added - it is needed. if no information is added - it is not needed.
 
 ## Introduction
 
@@ -79,13 +85,15 @@ Usually, they do include references.
 
 Every engineering/scientific writing project is standing on the shoulders of giants[^1].
 Therefore you will need to first read literature and also add literature to you final paper/final report.
-There are numerous ways of how to do this, which also depend on your choice of writing style (WYSIWYG vs. WYSIWYM).
+There are numerous ways of how to do this, which also depend on your choice of writing style (WYSIWYG[^2] vs. WYSIWYM[^3]).
 
 The lab uses it's own citation style which is fully specified in [`csl/SensorLab.csl`](csl/SensorLab.csl).
 This folder contains a [`*.csl`-file ](csl/SensorLab.csl) which can be uses by many document processing systems, therefore ensuring a consistent citation style throughout the works.
 The style is in essence the [Elsevier - Harvard (with titles)](https://editor.citationstyles.org/styleInfo/?styleId=http%3A%2F%2Fwww.zotero.org%2Fstyles%2Felsevier-harvard) style if you need to search differently for it and can not use it out-of-the-box.
 
 [^1]: Newton, Isaac. "Letter from Sir Isaac Newton to Robert Hooke". Historical Society of Pennsylvania.
+[^2]: (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (G)et 
+[^3]: (W)hat (Y)ou (S)ee (I)s (W)hat (Y)out (M)eam
 
 ### Literature management
 
@@ -118,7 +126,7 @@ Examples are:
 - additional table
 
 > [!Note]
-> The appendix doe **NOT** count for the word count or the length of your paper.
+> The appendix does **NOT** count for the word count or the length of your paper.
 
 ## Acknowledgments
 
@@ -128,14 +136,17 @@ You can put the author contributions for Case Studies here.
 # Figures
 
 It is very likely that you will have images in your paper/report. 
-Please follow the following guidelines/tips.
+In general figure 
+
+- need to have a caption *below* the figure
+- need to have a number
+- must be cited if not your own work, check the [license](https://commons.wikimedia.org/wiki/Commons:Licensing/en) 
+- must be referenced in the text; if not referenced it will be deemed unnecessary and treated as such
 
 ## raster images
 
 - at least `300dpi` in resolution
 - preferred file format: `*.png`, also possible: `*.tiff`, avoid: `*.jpg`, `*.bmp`
-- need to have a caption
-- need to have a number
 - only images that are referenced in the text (as in: needed) shall be used
 - if the images are not your own work, cite the source
 - ask for permission, check the [license](https://commons.wikimedia.org/wiki/Commons:Licensing/en) 
@@ -146,7 +157,8 @@ Please follow the following guidelines/tips.
 - can be very useful for workflows, diagrams
 - can be scaled indefinitely, very good for printed output
 - use `*.svg` files (also web standard)
-- use software to create: [inkscape](https://inkscape.org/de/) - opens source and free, [Adobe Illustrator](https://www.adobe.com/de/products/illustrator.html) - closed source not free
+- use software to create: [inkscape](https://inkscape.org/de/) - open source and free, [Adobe Illustrator](https://www.adobe.com/de/products/illustrator.html) - closed source not free
+- check the [svgrepo](https://www.svgrepo.com/)
 
 ## plots
 
@@ -157,11 +169,38 @@ Please follow the following guidelines/tips.
 - resolution at least `300dpi`, or use as vector graphic
 - use colorblind friendly color palettes (e.g. `viridis`)
 - gridlines only if information is added 
-- in general: consider the [data-ink ratio](https://www.matthewdeverna.com/docs/notes/Tufte_dataInk.html) proposed by Edward Tufte[^2].
+- in general: consider the [data-ink ratio](https://www.matthewdeverna.com/docs/notes/Tufte_dataInk.html) proposed by Edward Tufte[^4].
 
 > [!CAUTION]
 > Figure that are not referenced in the text are not necessary and **MUST** be removed. This influences grading!
 
-[^2]: Edward Tufte: https://de.wikipedia.org/wiki/Edward_Tufte
+[^4]: Edward Tufte: https://de.wikipedia.org/wiki/Edward_Tufte
 
+# tables
+
+- need to have a caption *above* the figure
+- need to have a number
+- must be referenced in the text; if not referenced it will be deemed unnecessary and treated as such
+- must have the same fontsize as the text
+
+## Online table generator (static tables)
+
+If you are using a WYSIWYM System you can use [online table generators](https://www.tablesgenerator.com/) that make it easier to compile tables.
+All advantages of those systems aside, creating tables is a pain.
+
+## table generator packages (copmutation tables)
+
+R:
+- [gt](https://CRAN.R-project.org/package=gt)
+- [formattable](https://CRAN.R-project.org/package=formattable)
+- [kableExtra](https://CRAN.R-project.org/package=kableExtra)
+- [flextable](https://CRAN.R-project.org/package=flextable)
+- ... and more online
+
+python:
+- [gt](https://posit-dev.github.io/great-tables/articles/intro.html)
+- ... probably more that I do not know of
+
+other languages:
+- your are on your own
 
