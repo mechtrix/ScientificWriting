@@ -286,10 +286,20 @@ The general guidelines above are stated in such a way, so that they are applicab
 - Length of the article: 3500 - 5000 words (excluding: Appendix, Bibliography, Abstract, Acknowledgements, including: Headings)
 
 
-## Submission
+## Submission - report
 
-- Submission must be completed on the communicated date (see [i-learn](https://ilearn.th-deg.de/) for the specific case study).
-- Submission must be **printed on A4 paper** and must be nondetachably connected to each other on the day of submission.
-- Submission must **signed by all authors** including the printed name, the signature and the date
-- Author contribution **MUST** be included (see `Acknowledgments` section)
+- ... **must** be completed on the communicated date (see [i-learn](https://ilearn.th-deg.de/) for the specific case study).
+- ... **must** be **printed on A4 paper** and must be nondetachably connected to each other on the day of submission.
+- ... **must be signed by all authors** including the printed name, the signature and the date
+- ... **must** include Author contributions (see `Acknowledgments` section)
 
+## Submission - files
+
+- ... **must** be uploaded in i-learn link via Nextcloud (see the respective case study)
+- ... **must** be in a `*.zip` (or [`*.7zip`](https://7-zip.de/)) archive
+- ... **must** include a `readme.txt` or `readme.md` that clarify the contents of a file (also if the upload itself is only one file)
+- ... **must** include all data up to `500MB`
+- ... **must** be uploaded **BEFORE** your final presentation
+- ... **must** contain all your presentations (start, intermediate, final)
+- ... **must** follow the following naming convention: `GroupXX_GroupTitle`. All files that do not follow this convention will be ignored and count as **NOT SUBMITTED**
+- ... are a prerequisite to pass the final gate (as in: no data, no gate)
