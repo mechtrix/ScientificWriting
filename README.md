@@ -188,7 +188,7 @@ In general figure
 If you are using a WYSIWYM System you can use [online table generators](https://www.tablesgenerator.com/) that make it easier to compile tables.
 All advantages of those systems aside, creating tables is a pain.
 
-## table generator packages (copmutation tables)
+## table generator packages (computation tables)
 
 R:
 - [gt](https://CRAN.R-project.org/package=gt)
