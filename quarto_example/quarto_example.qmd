@@ -1,5 +1,5 @@
 ---
-title: Short Paper
+title: Noble Prize Submission
 subtitle: A Short Subtitle
 author:
   - name: Alice Anonymous
@@ -64,6 +64,8 @@ For detailed instructions regarding the elsevier article class, see   <https://w
 
 Here are two sample references:  @Feynman1963118 @Dirac1953888.
 
+Here is another new one @MyCitationKey.
+
 By default, natbib will be used with the `authoryear` style, set in `classoption` variable in YAML. 
 You can sets extra options with `natbiboptions` variable in YAML header. Example 
 
@@ -89,6 +91,15 @@ $$
   e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
   \alpha,\beta,x > 0 .
 $$
+
+Numbered equation:
+
+\begin{align}
+f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
+  \left(\frac{x}{\beta}\right)^{\alpha-1}
+  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
+  \alpha,\beta,x > 0 
+\end{align}
 
 Inline equations work as well: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
 

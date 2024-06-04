@@ -201,7 +201,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={Short Paper},
+  pdftitle={Noble Prize Submission},
   pdfauthor={Alice Anonymous; Bob Security; Cat Memes; Derek Zoolander},
   pdfkeywords={keyword1, keyword2},
   colorlinks=true,
@@ -215,7 +215,7 @@
 \begin{document}
 
 \begin{frontmatter}
-\title{Short Paper \\\large{A Short Subtitle} }
+\title{Noble Prize Submission \\\large{A Short Subtitle} }
 \author[1]{Alice Anonymous%
 \corref{cor1}%
 \fnref{fn1}}
@@ -283,6 +283,8 @@ For detailed instructions regarding the elsevier article class, see
 Here are two sample references: Feynman and Vernon Jr. (1963) Dirac
 (1953).
 
+Here is another new one Cano et al. (2012).
+
 By default, natbib will be used with the \texttt{authoryear} style, set
 in \texttt{classoption} variable in YAML. You can sets extra options
 with \texttt{natbiboptions} variable in YAML header. Example
@@ -314,6 +316,15 @@ Here is an equation: \[
   e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
   \alpha,\beta,x > 0 .
 \]
+
+Numbered equation:
+
+\begin{align}
+f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
+  \left(\frac{x}{\beta}\right)^{\alpha-1}
+  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
+  \alpha,\beta,x > 0 
+\end{align}
 
 Inline equations work as well: \(\sum_{i = 2}^\infty\{\alpha_i^\beta\}\)
 
@@ -370,6 +381,11 @@ Valiant & 18.1 & 6 & 225 & 105 \\
 
 \phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
+\bibitem[\citeproctext]{ref-MyCitationKey}
+Cano, E.L., Moguerza, J.M., Redchuk, A., 2012. Six sigma with r Not
+available, Not available.
+\url{https://doi.org/10.1007/978-1-4614-3652-2}
+
 \bibitem[\citeproctext]{ref-Dirac1953888}
 Dirac, P.A.M., 1953. The {Lorentz} transformation and absolute time.
 Physica 19, 888--896.

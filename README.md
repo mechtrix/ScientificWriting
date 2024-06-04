@@ -3,7 +3,7 @@ This is the repo for scientific writing.
 
 It shall give you an idea on how to write reports on Case Studies on the LFC Cham for topics that are handed out by Prof. Weber.
 
-There are many way on how to do Case Study reports as well as Thesis on a technical basis. 
+There are many ways on how to do Case Study reports as well as Thesis on a technical basis. 
 One rule of thumb does apply: The content matters more than the means of how you arrive at the final report.
 
 By adhering to those guidelines you make it easier for everyone to read, and finally grade, your papers.
@@ -204,6 +204,10 @@ python:
 other languages:
 - your are on your own
 
+# Equations
+
+Equations must be numbered (except inline).
+
 # pseudocode
 
 If algorithms are included in your project that you want to describe thoroughly you can do this using `pseudocode`.
@@ -302,4 +306,5 @@ The general guidelines above are stated in such a way, so that they are applicab
 - ... **must** be uploaded **BEFORE** your final presentation
 - ... **must** contain all your presentations (start, intermediate, final)
 - ... **must** follow the following naming convention: `GroupXX_GroupTitle`. All files that do not follow this convention will be ignored and count as **NOT SUBMITTED**
+- ... **can** include code and **must** if your work was of a coding one
 - ... are a prerequisite to pass the final gate (as in: no data, no gate)
