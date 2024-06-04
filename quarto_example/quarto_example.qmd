@@ -66,6 +66,8 @@ Here are two sample references:  @Feynman1963118 @Dirac1953888.
 
 Here is another new one @MyCitationKey.
 
+And here is one more @Efron2016
+
 By default, natbib will be used with the `authoryear` style, set in `classoption` variable in YAML. 
 You can sets extra options with `natbiboptions` variable in YAML header. Example 
 

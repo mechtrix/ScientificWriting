@@ -225,7 +225,7 @@ There are many tips online on how to write [pseudecode](https://gist.github.com/
 > [!IMPORTANT]
 > There should be no "real" code in the body of your text. The body of your text shall include pseudocode, the actual code goes in the appendix.
 
-# Technial means of writing
+# Technical means of writing
 
 There are two main ways of writing: (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (G)et vs. (W)hat (Y)ou (S)ee (I)s (W)hat (Y)ou (M)ean.
 The choice of writing does **NOT** influence your grade, its the content of your paper that matters.
@@ -296,6 +296,7 @@ The general guidelines above are stated in such a way, so that they are applicab
 - ... **must** be **printed on A4 paper** and must be nondetachably connected to each other on the day of submission.
 - ... **must be signed by all authors** including the printed name, the signature and the date
 - ... **must** include Author contributions (see `Acknowledgments` section)
+- ... **must** include at least 3 (**three**) references
 
 ## Submission - files
 
